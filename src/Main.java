@@ -7,7 +7,7 @@ public class Main
     public static void main(String[] args)
     {
         printRules();
-        Board board = new Board(2);
+        Board board = new Board(6);
         Time time = new Time(board);
         Thread timeThread = new Thread(time);
         timeThread.start();
